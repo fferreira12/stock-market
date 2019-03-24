@@ -8,7 +8,7 @@ class RandomDataSource(DataSource):
     """
 
     def __init__(self, min, max, max_variation):
-        super().__init__(None)
+        #super().__init__(None)
         self._min = min
         self._max = max
         self._max_variation = max_variation
